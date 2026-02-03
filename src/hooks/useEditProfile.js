@@ -5,7 +5,7 @@ import useProfileStore from "../store/userProfileStore";
 import {useUpdatePic} from '../utils/uploadImage'
 import API from "../utils/api";
 import axios from "axios";
-import { token } from "morgan";
+// import { token } from "morgan";
 
 const useEditProfile = () => {
 	const [isUpdating, setIsUpdating] = useState(false);
