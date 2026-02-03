@@ -28,10 +28,10 @@ import { Box,
 import { Link as RouterLink } from "react-router-dom";
 import { ChatGptLogo1 } from '../../assets/constants.jsx'
 import { BiLogOut } from "react-icons/bi";
-import { FiSearch, FiBookOpen, FiGrid, FiMenu, FiPlus } from 'react-icons/fi';
+// import { FiSearch, FiBookOpen, FiGrid, FiMenu, FiPlus } from 'react-icons/fi';
 // import useLogout from "../../hooks/useLogout";
 import SidebarItems from "./SidebarItems";
-import { useSidebarContext } from './sidebar-context';
+// import { useSidebarContext } from './sidebar-context';
 import useLogout from '../../hooks/useLogout.js';
 const ChatGptLogo = chakra(ChatGptLogo1)
 export function SideBar({ authUser, onLogout }) {
